@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<HTML lang = "en">
+  <HEAD>
+  <style>
+  table, th, td {
+     border: 1px solid black;
+  }
+</style>
+    <TITLE>WORK AVALABILITY</TITLE>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial;
+    }
+    header{
+      background-color: #66FFFF;
+      padding: 20px;
+      text-align: center;
+      font-size:25px;
+      color: black;  
+    }
+    nav{
+      float:right;
+      display: block;
+      width:25%;
+      background-color:#33FFFF;
+      padding:20px;  
+      height:300px;
+    }
+    nav ul{
+      list-style-type:none;
+      padding:0;
+    }
+    nav input[type:text]{
+      float:left;
+      padding:3px;
+      margin-top:8px;
+      margin-left:10x;
+      border:none;
+      font-size:20px;
+    }
+    main{
+      float:left;
+      width:75%;
+      background-color:#66B2FF;
+    }
+    section::after{
+      content:"";
+      display:table;
+      clear:both;
+    }
+    info{
+      float:left;
+      padding:10px;
+      width:75%;
+      background-color:#66B2FF;
+      height:300px;
+
+    }
+    .container {
+      padding: 16px;
+    }
+    @media screen and (max-width: 500px) {
+      nav, article, nav input[type:text] {
+        float:none;
+        text-align:left;
+        width: 100%;
+        height: auto;
+      }
+      nav input[type:text]{
+        border: 1px solid #ccc; 
+      }
+    }
+    </style>
+  </HEAD>
+  <BODY style = "background-color:powderblue;">
+  <header>
+  <h1> 
+  Welcome to Work Availability
+  </h1>
+  </header>
+  <section>
+    <nav>
+      <input type="text" placeholder="Search..">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Open shift</a></li>
+        <li><a href="#">Work Chat</a></li>
+        <li><a href="#">My Schedule</a></li>
+        <li><a href="#">Staff Contact</a></li>     
+      </ul>
+    </nav>
+    <main>
+    <info>
+      <p>
+      (Today's date)
+      Schedule
+      </p>
+      <table style="width:100%">
+      <tr>
+        <th>Time</th>
+        <th>Name</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <th>9.00am-5.00pm</th>
+        <th>BryanHa with Kent</th>
+        <th>Westfield Doncaster</th>
+      </tr>
+      </table>
+      </info>
+    </main>
+  </section>
+  </BODY>
+</HTML>
